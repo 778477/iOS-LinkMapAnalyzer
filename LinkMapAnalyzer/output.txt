@@ -1,0 +1,16 @@
+# Path: /Users/guomiaoyou/Library/Developer/Xcode/DerivedData/GAG-focyaelrlonzsogsgfnrfxjywimo/Build/Products/Debug-iphonesimulator/GAG.app/GAG
+# Arch: x86_64
+[debug]: 0-unknownFile-unknownModule
+[debug]: read file line count = 8258
+libAFNetworking.a                                                       317.37KB
+libSDWebImage.a                                                         198.61KB
+GAG                                                                      68.55KB
+libSVPullToRefresh.a                                                     43.76KB
+libarclite_iphonesimulator.a                                              7.38KB
+unknownModule                                                             2.18KB
+libPods-GAG.a                                                             0.25KB
+
+
+
+[-] totalSize : 0.623137MB
+[-] Cast Time : 7

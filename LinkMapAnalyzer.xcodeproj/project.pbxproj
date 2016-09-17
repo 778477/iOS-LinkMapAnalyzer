@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5562BFC1D8D419400014D7E /* GMYLinkMapAnalyze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5562BF71D8D419400014D7E /* GMYLinkMapAnalyze.cpp */; };
+		F5562BFD1D8D419400014D7E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5562BFA1D8D419400014D7E /* main.cpp */; };
+		F5562BFF1D8D4F0800014D7E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F5562BFE1D8D4F0800014D7E /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F51352E71A80FB42002E199C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F51352E91A80FB42002E199C /* LinkMapAnalyzer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkMapAnalyzer; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5562BF71D8D419400014D7E /* GMYLinkMapAnalyze.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GMYLinkMapAnalyze.cpp; path = LinkMapAnalyzer/GMYLinkMapAnalyze.cpp; sourceTree = SOURCE_ROOT; };
+		F5562BF81D8D419400014D7E /* GMYLinkMapAnalyze.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GMYLinkMapAnalyze.hpp; path = LinkMapAnalyzer/GMYLinkMapAnalyze.hpp; sourceTree = SOURCE_ROOT; };
+		F5562BF91D8D419400014D7E /* in.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = in.txt; path = LinkMapAnalyzer/in.txt; sourceTree = SOURCE_ROOT; };
+		F5562BFA1D8D419400014D7E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = LinkMapAnalyzer/main.cpp; sourceTree = SOURCE_ROOT; };
+		F5562BFB1D8D419400014D7E /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = output.txt; path = LinkMapAnalyzer/output.txt; sourceTree = SOURCE_ROOT; };
+		F5562BFE1D8D4F0800014D7E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = LinkMapAnalyzer/README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F51352E61A80FB42002E199C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F51352E01A80FB42002E199C = {
+			isa = PBXGroup;
+			children = (
+				F51352EB1A80FB42002E199C /* LinkMapAnalyzer */,
+				F51352EA1A80FB42002E199C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F51352EA1A80FB42002E199C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F51352E91A80FB42002E199C /* LinkMapAnalyzer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F51352EB1A80FB42002E199C /* LinkMapAnalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				F5562BF71D8D419400014D7E /* GMYLinkMapAnalyze.cpp */,
+				F5562BF81D8D419400014D7E /* GMYLinkMapAnalyze.hpp */,
+				F5562BF91D8D419400014D7E /* in.txt */,
+				F5562BFA1D8D419400014D7E /* main.cpp */,
+				F5562BFB1D8D419400014D7E /* output.txt */,
+				F5562BFE1D8D4F0800014D7E /* README.md */,
+			);
+			name = LinkMapAnalyzer;
+			path = ACM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F51352E81A80FB42002E199C /* LinkMapAnalyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51352F01A80FB42002E199C /* Build configuration list for PBXNativeTarget "LinkMapAnalyzer" */;
+			buildPhases = (
+				F51352E51A80FB42002E199C /* Sources */,
+				F51352E61A80FB42002E199C /* Frameworks */,
+				F51352E71A80FB42002E199C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkMapAnalyzer;
+			productName = ACM;
+			productReference = F51352E91A80FB42002E199C /* LinkMapAnalyzer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F51352E11A80FB42002E199C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = miaoyou.gmy;
+				TargetAttributes = {
+					F51352E81A80FB42002E199C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = F51352E41A80FB42002E199C /* Build configuration list for PBXProject "LinkMapAnalyzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F51352E01A80FB42002E199C;
+			productRefGroup = F51352EA1A80FB42002E199C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F51352E81A80FB42002E199C /* LinkMapAnalyzer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F51352E51A80FB42002E199C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5562BFF1D8D4F0800014D7E /* README.md in Sources */,
+				F5562BFD1D8D419400014D7E /* main.cpp in Sources */,
+				F5562BFC1D8D419400014D7E /* GMYLinkMapAnalyze.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F51352EE1A80FB42002E199C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F51352EF1A80FB42002E199C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F51352F11A80FB42002E199C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				PRODUCT_NAME = LinkMapAnalyzer;
+			};
+			name = Debug;
+		};
+		F51352F21A80FB42002E199C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				PRODUCT_NAME = LinkMapAnalyzer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F51352E41A80FB42002E199C /* Build configuration list for PBXProject "LinkMapAnalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51352EE1A80FB42002E199C /* Debug */,
+				F51352EF1A80FB42002E199C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51352F01A80FB42002E199C /* Build configuration list for PBXNativeTarget "LinkMapAnalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51352F11A80FB42002E199C /* Debug */,
+				F51352F21A80FB42002E199C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F51352E11A80FB42002E199C /* Project object */;
+}
