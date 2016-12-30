@@ -18,6 +18,6 @@
     2. 取消打印各个方法日志
  */
 
-#define _debug_ 1
+//#define _debug_ 1
 
 #endif /* Debug_h */
