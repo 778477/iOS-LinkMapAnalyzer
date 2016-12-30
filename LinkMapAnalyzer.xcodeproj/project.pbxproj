@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F52AB7F81E16084F00B94645 /* LinkMapAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F52AB7F51E16084F00B94645 /* LinkMapAnalyzer.cpp */; };
 		F52AB7FD1E16229600B94645 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F52AB7FC1E16229600B94645 /* README.md */; };
-		F5562BFD1D8D419400014D7E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5562BFA1D8D419400014D7E /* main.cpp */; };
+		F5484B561E1629AE008FED72 /* linkMapAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5484B4F1E1629AE008FED72 /* linkMapAnalyzer.cpp */; };
+		F5484B571E1629AE008FED72 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5484B521E1629AE008FED72 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,17 +26,17 @@
 
 /* Begin PBXFileReference section */
 		F51352E91A80FB42002E199C /* LinkMapAnalyzer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkMapAnalyzer; sourceTree = BUILT_PRODUCTS_DIR; };
-		F52AB7EF1E16043400B94645 /* Debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Debug.h; path = LinkMapAnalyzer/Debug.h; sourceTree = "<group>"; };
-		F52AB7F01E16053200B94645 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Common.h; path = LinkMapAnalyzer/Common.h; sourceTree = "<group>"; };
-		F52AB7F51E16084F00B94645 /* LinkMapAnalyzer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkMapAnalyzer.cpp; path = LinkMapAnalyzer/LinkMapAnalyzer.cpp; sourceTree = "<group>"; };
-		F52AB7F61E16084F00B94645 /* LinkMapAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkMapAnalyzer.h; path = LinkMapAnalyzer/LinkMapAnalyzer.h; sourceTree = "<group>"; };
-		F52AB7F71E16084F00B94645 /* LinkMapSessionDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkMapSessionDefine.h; path = LinkMapAnalyzer/LinkMapSessionDefine.h; sourceTree = "<group>"; };
-		F52AB7F91E1608AF00B94645 /* ObjectFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ObjectFile.h; path = LinkMapAnalyzer/ObjectFile.h; sourceTree = "<group>"; };
-		F52AB7FA1E1608F800B94645 /* ObjectModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ObjectModule.h; path = LinkMapAnalyzer/ObjectModule.h; sourceTree = "<group>"; };
 		F52AB7FC1E16229600B94645 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F5562BF91D8D419400014D7E /* in.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = in.txt; path = LinkMapAnalyzer/in.txt; sourceTree = SOURCE_ROOT; };
-		F5562BFA1D8D419400014D7E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = LinkMapAnalyzer/main.cpp; sourceTree = SOURCE_ROOT; };
-		F5562BFB1D8D419400014D7E /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = output.txt; path = LinkMapAnalyzer/output.txt; sourceTree = SOURCE_ROOT; };
+		F5484B4C1E1629AE008FED72 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		F5484B4D1E1629AE008FED72 /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
+		F5484B4E1E1629AE008FED72 /* in.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = in.txt; sourceTree = "<group>"; };
+		F5484B4F1E1629AE008FED72 /* linkMapAnalyzer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linkMapAnalyzer.cpp; sourceTree = "<group>"; };
+		F5484B501E1629AE008FED72 /* LinkMapAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkMapAnalyzer.h; sourceTree = "<group>"; };
+		F5484B511E1629AE008FED72 /* LinkMapSessionDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkMapSessionDefine.h; sourceTree = "<group>"; };
+		F5484B521E1629AE008FED72 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F5484B531E1629AE008FED72 /* ObjectFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectFile.h; sourceTree = "<group>"; };
+		F5484B541E1629AE008FED72 /* ObjectModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectModule.h; sourceTree = "<group>"; };
+		F5484B551E1629AE008FED72 /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,17 +53,8 @@
 		F51352E01A80FB42002E199C = {
 			isa = PBXGroup;
 			children = (
+				F5484B4B1E1629AE008FED72 /* iOS-LinkMapAnalyzer */,
 				F52AB7FC1E16229600B94645 /* README.md */,
-				F5562BF91D8D419400014D7E /* in.txt */,
-				F5562BFA1D8D419400014D7E /* main.cpp */,
-				F52AB7F51E16084F00B94645 /* LinkMapAnalyzer.cpp */,
-				F52AB7F61E16084F00B94645 /* LinkMapAnalyzer.h */,
-				F52AB7FA1E1608F800B94645 /* ObjectModule.h */,
-				F52AB7F91E1608AF00B94645 /* ObjectFile.h */,
-				F52AB7F71E16084F00B94645 /* LinkMapSessionDefine.h */,
-				F52AB7F01E16053200B94645 /* Common.h */,
-				F52AB7EF1E16043400B94645 /* Debug.h */,
-				F5562BFB1D8D419400014D7E /* output.txt */,
 				F51352EA1A80FB42002E199C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +65,23 @@
 				F51352E91A80FB42002E199C /* LinkMapAnalyzer */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F5484B4B1E1629AE008FED72 /* iOS-LinkMapAnalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				F5484B4C1E1629AE008FED72 /* common.h */,
+				F5484B4D1E1629AE008FED72 /* Debug.h */,
+				F5484B4E1E1629AE008FED72 /* in.txt */,
+				F5484B4F1E1629AE008FED72 /* linkMapAnalyzer.cpp */,
+				F5484B501E1629AE008FED72 /* LinkMapAnalyzer.h */,
+				F5484B511E1629AE008FED72 /* LinkMapSessionDefine.h */,
+				F5484B521E1629AE008FED72 /* main.cpp */,
+				F5484B531E1629AE008FED72 /* ObjectFile.h */,
+				F5484B541E1629AE008FED72 /* ObjectModule.h */,
+				F5484B551E1629AE008FED72 /* output.txt */,
+			);
+			path = "iOS-LinkMapAnalyzer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5484B561E1629AE008FED72 /* linkMapAnalyzer.cpp in Sources */,
 				F52AB7FD1E16229600B94645 /* README.md in Sources */,
-				F52AB7F81E16084F00B94645 /* LinkMapAnalyzer.cpp in Sources */,
-				F5562BFD1D8D419400014D7E /* main.cpp in Sources */,
+				F5484B571E1629AE008FED72 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
