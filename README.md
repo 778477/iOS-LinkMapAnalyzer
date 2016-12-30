@@ -36,9 +36,14 @@ typedef enum {
 
 ## How to use
 
-使用编译之后产物 `LinkMapAnalyzer`目录下 在命令行中运行。 后面指明要分析的linkMap文件地址
+使用项目目录里`LinkMapAnalyzer`可执行文件，在命令行中运行。
+后面指明要分析的linkMap文件地址
 
-`./LinkMapAnalyzer ~/GAG-LinkMap-normal-x86_64.txt`
+`./LinkMapAnalyzer ./GAG-LinkMap-normal-x86_64.txt`
+
+也可以将输出重定向保存为其他文件 如：
+
+`./LinkMapAnalyzer ./GAG-LinkMap-normal-x86_64.txt > out.txt`
 
 
 ## Example output：
