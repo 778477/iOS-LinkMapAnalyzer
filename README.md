@@ -38,7 +38,7 @@ typedef enum {
 
 使用编译之后产物 `LinkMapAnalyzer`目录下 在命令行中运行。 后面指明要分析的linkMap文件地址
 
-`./LinkMapAnalyzer /Users/guomiaoyou/Library/Developer/Xcode/DerivedData/GAG-focyaelrlonzsogsgfnrfxjywimo/Build/Intermediates/GAG.build/Debug-iphonesimulator/GAG.build/GAG-LinkMap-normal-x86_64.txt`
+`./LinkMapAnalyzer ~/GAG-LinkMap-normal-x86_64.txt`
 
 
 ## Example output：
