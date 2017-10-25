@@ -47,7 +47,7 @@ public:
     void analyzeSymbolsAddressFromBuf(const char *buf);
     void output();
 private:
-    void formatoutput(const string name,double size,const string sizeUnit,const double maxSize);
+    void formatoutput(const string name,double size,const string sizeUnit);
 
 };
 

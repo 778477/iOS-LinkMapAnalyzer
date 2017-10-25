@@ -52,10 +52,10 @@ int main(int argc,char *argv[]){
     ifstream inFile(argv[1]);
 #else
     //输入 重定向 load linkMap file
-    const string inputFileName = "/Users/guomiaoyou/Documents/778477/iOS-LinkMapAnalyzer/LinkMapAnalyzer/in.txt";
+    const string inputFileName = "/Users/guomiaoyou/Documents/github/iOS-LinkMapAnalyzer/iOS-LinkMapAnalyzer/in.txt";
     ifstream inFile(inputFileName);
     //输出 重定向
-    freopen("/Users/guomiaoyou/Documents/778477/iOS-LinkMapAnalyzer/LinkMapAnalyzer/output.txt", "w", stdout);
+    freopen("/Users/guomiaoyou/Documents/github/iOS-LinkMapAnalyzer/iOS-LinkMapAnalyzer/out.txt", "w", stdout);
 #endif
 
     if(!inFile){
