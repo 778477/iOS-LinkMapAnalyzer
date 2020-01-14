@@ -13,6 +13,3 @@ main.o : main.cpp
 	
 clean:
 	rm $(OBJECTS) LinkMapAnalyzer
-
-format:
-	find . -name "*.cpp" | clang-format -style=google $0
