@@ -13,3 +13,6 @@ main.o : main.cpp
 	
 clean:
 	rm $(OBJECTS) LinkMapAnalyzer
+
+format:
+	clang-format -i *.cpp *.h

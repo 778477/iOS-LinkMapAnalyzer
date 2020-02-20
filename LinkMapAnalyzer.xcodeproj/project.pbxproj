@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F52AB7FD1E16229600B94645 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F52AB7FC1E16229600B94645 /* README.md */; };
 		F5484B561E1629AE008FED72 /* LinkMapAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5484B4F1E1629AE008FED72 /* LinkMapAnalyzer.cpp */; };
 		F5484B571E1629AE008FED72 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5484B521E1629AE008FED72 /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -70,15 +69,15 @@
 		F5484B4B1E1629AE008FED72 /* iOS-LinkMapAnalyzer */ = {
 			isa = PBXGroup;
 			children = (
+				F5484B4F1E1629AE008FED72 /* LinkMapAnalyzer.cpp */,
+				F5484B521E1629AE008FED72 /* main.cpp */,
 				F533206F1FA0AC79000E1BDB /* Common.h */,
 				F5484B4D1E1629AE008FED72 /* Debug.h */,
-				F5484B4E1E1629AE008FED72 /* in.txt */,
-				F5484B4F1E1629AE008FED72 /* LinkMapAnalyzer.cpp */,
 				F5484B501E1629AE008FED72 /* LinkMapAnalyzer.h */,
 				F5484B511E1629AE008FED72 /* LinkMapSessionDefine.h */,
-				F5484B521E1629AE008FED72 /* main.cpp */,
 				F5484B531E1629AE008FED72 /* ObjectFile.h */,
 				F5484B541E1629AE008FED72 /* ObjectModule.h */,
+				F5484B4E1E1629AE008FED72 /* in.txt */,
 				F53320701FA0B179000E1BDB /* out.txt */,
 			);
 			path = "iOS-LinkMapAnalyzer";
@@ -123,6 +122,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = F51352E01A80FB42002E199C;
@@ -141,7 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5484B561E1629AE008FED72 /* LinkMapAnalyzer.cpp in Sources */,
-				F52AB7FD1E16229600B94645 /* README.md in Sources */,
 				F5484B571E1629AE008FED72 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

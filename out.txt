@@ -1,0 +1,93 @@
+
+
+
+[-] Object File Size : 
+AFURLRequestSerialization.o                                              78.33KB
+AFURLSessionManager.o                                                    77.56KB
+SDImageCache.o                                                           33.31KB
+SDWebImageManager.o                                                      32.56KB
+AFImageDownloader.o                                                      30.02KB
+AFURLResponseSerialization.o                                             29.74KB
+UIScrollView+SVPullToRefresh.o                                           29.08KB
+SDWebImageDownloaderOperation.o                                          25.71KB
+SDWebImageDownloader.o                                                   24.84KB
+UIButton+WebCache.o                                                      23.75KB
+UIImageView+WebCache.o                                                   23.11KB
+MASViewConstraint.o                                                      19.35KB
+AFHTTPSessionManager.o                                                   17.57KB
+AFAutoPurgingImageCache.o                                                15.62KB
+MASConstraint.o                                                          15.08KB
+GMYFavoritesViewController.o                                             15.05KB
+NSArray+MASAdditions.o                                                   14.57KB
+UIScrollView+SVInfiniteScrolling.o                                       14.55KB
+MASConstraintMaker.o                                                     14.47KB
+MASCompositeConstraint.o                                                 13.53KB
+GMYListItemPostCell.o                                                    13.22KB
+AFSecurityPolicy.o                                                       12.45KB
+UIButton+AFNetworking.o                                                  10.97KB
+AFNetworkActivityIndicatorManager.o                                      10.22KB
+UIImageView+HighlightedWebCache.o                                         9.76KB
+SDWebImagePrefetcher.o                                                    9.46KB
+AFNetworkReachabilityManager.o                                            8.04KB
+NSLayoutConstraint+MASDebugAdditions.o                                    8.00KB
+arclite.o                                                                 7.43KB
+AppDelegate.o                                                             7.36KB
+UIWebView+AFNetworking.o                                                  7.17KB
+UIImageView+AFNetworking.o                                                5.41KB
+View+MASAdditions.o                                                       5.17KB
+UIImage+GIF.o                                                             4.58KB
+UIProgressView+AFNetworking.o                                             4.20KB
+GMYNetEngine.o                                                            3.99KB
+GMYListItem.o                                                             3.42KB
+UIRefreshControl+AFNetworking.o                                           3.34KB
+UIActivityIndicatorView+AFNetworking.o                                    3.31KB
+GMYTabBarViewController.o                                                 2.30KB
+MASViewAttribute.o                                                        2.28KB
+unknownFile                                                               2.04KB
+GMYListInfo.o                                                             1.80KB
+ViewController+MASAdditions.o                                             1.76KB
+SDWebImageCompat.o                                                        1.70KB
+UIView+WebCacheOperation.o                                                1.62KB
+NSData+ImageContentType.o                                                 1.37KB
+libobjc.dylib                                                             1.36KB
+UIImage+MultiFormat.o                                                     1.23KB
+SDWebImageDecoder.o                                                       1.21KB
+NSDictionary+gmy_Category.o                                               1.08KB
+GMYJSONModel.o                                                            1.03KB
+libSystem.dylib                                                           0.89KB
+CoreGraphics                                                              0.75KB
+GMYFeaturesViewController.o                                               0.69KB
+UIView+gmy_Category.o                                                     0.67KB
+MASLayoutConstraint.o                                                     0.54KB
+GAG.app.xcent                                                             0.36KB
+Security                                                                  0.26KB
+CoreFoundation                                                            0.26KB
+SVPullToRefresh-dummy.o                                                   0.25KB
+AFNetworking-dummy.o                                                      0.25KB
+SDWebImage-dummy.o                                                        0.25KB
+Pods-GAG-dummy.o                                                          0.25KB
+Masonry-dummy.o                                                           0.24KB
+UIKit                                                                     0.16KB
+main.o                                                                    0.15KB
+Foundation                                                                0.14KB
+SystemConfiguration                                                       0.14KB
+ImageIO                                                                   0.09KB
+MobileCoreServices                                                        0.05KB
+QuartzCore                                                                0.02KB
+
+
+
+[-] Library File Size : 
+libAFNetworking.a                                                       314.20KB
+libSDWebImage.a                                                         194.45KB
+libMasonry.a                                                             94.99KB
+GAG                                                                      55.24KB
+libSVPullToRefresh.a                                                     43.88KB
+libarclite_iphonesimulator.a                                              7.43KB
+unknownModule                                                             2.04KB
+libPods-GAG.a                                                             0.25KB
+
+
+
+[-] totalSize : 0.695766MB
+[-] Cast Time : 10
